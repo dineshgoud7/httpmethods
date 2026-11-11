@@ -1,0 +1,29 @@
+{
+  "data": [
+    {
+      "sid": 1,
+      "name": "Dinesh",
+      "age": 24,
+      "id": "ktGgpvnO2OM"
+    },
+    {
+      "sid": 2,
+      "name": "Arjun",
+      "age": 24,
+      "id": "SiY-WRM23sc"
+    },
+    {
+      "sid": 3,
+      "name": "Kalyan",
+      "age": 24,
+      "id": "hrNkejhEG9E"
+    },
+    {
+      "sid": 4,
+      "name": "Sai",
+      "age": 27,
+      "id": "Zy39s5tznB8"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
