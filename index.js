@@ -14,43 +14,75 @@
 
 //DELETE
 
-// const URL="http://localhost:8000/data/lmDvt-aaMIw";
+const URL="http://localhost:8000/data/7";
 
-// let options={
-//     "method":"DELETE"
-// }
+let options={
+    "method":"DELETE"
+}
 
-// fetch(URL,options)
-// .then(res=>{
-//     console.log(res.status,res.statusText)
-// })
-// .catch(res=>console.log(res))
+fetch(URL,options)
+.then(res=>{
+    console.log(res.status,res.statusText)
+})
+.catch(res=>console.log(res))
 
 
 //POST
 
 // const URL="http://localhost:8000/data";
 
-// let options={
-//     "method":"POST",
-//     "headers":{
-//         "Content-Type":"application/json"
+// let users=[
+//     {
+//       "id": 1,
+//       "name": "Dinesh",
+//       "age": 24,
 //     },
-//     "body":JSON.stringify({
-//         "sid":4,
-//         "name":"Sai",
-//         "age":27
+//     {
+//       "id": 2,
+//       "name": "Arjun",
+//       "age": 24,
+//     },
+//     {
+//       "id": 3,
+//       "name": "Kalyan",
+//       "age": 24,
+//     },
+//     {
+//       "id": 4,
+//       "name": "Sai",
+//       "age": 27,
+//     },
+//     {
+//       "id": 5,
+//       "name": "Ram",
+//       "age": 27,
+//     },
+//     {
+//       "id": 6,
+//       "name": "Ram",
+//       "age": 27,
+//     },
+// ]
 
-//     })
-// }
-
-// fetch(URL,options)
-// .then(res=>{
-//     if(res.ok){
-//         console.log(res.status,res.statusText);
+// users.forEach(user=>{
+    
+//     let options={
+//         "method":"POST",
+//         "headers":{
+//             "Content-Type":"application/json"
+//         },
+//         "body":JSON.stringify(user)
 //     }
+    
+//     fetch(URL,options)
+//     .then(res=>{
+//         if(res.ok){
+//             console.log(res.status,res.statusText);
+//         }
+//     })
+//     .catch(res=>console.log(res));
+
 // })
-// .catch(res=>console.log(res));
 
 //PUT
 
